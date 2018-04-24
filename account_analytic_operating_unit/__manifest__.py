@@ -21,9 +21,14 @@ Allows to add operating units to the following models:
     * Account Move Line
 ----------------------------------------------------------------------
 Create groups and filters on the analytic entries form,tree and pivot for operating units 
+
+Also required the following modules (OCA):
+    * operating_unit
+    * sales_team_operating_unit
+From repo: https://github.com/oca/operating-unit
     """,
     'website': 'https://www.rapidsoft.com.py',
-    'depends': ['account','operating_unit','purchase','sale_team_operating_unit'],
+    'depends': ['account','operating_unit','purchase'],
     'data': [
         'views/account_analytic_view.xml',
         'views/purchase_order_view.xml',
