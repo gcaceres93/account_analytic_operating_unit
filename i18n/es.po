@@ -1,0 +1,52 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_analytic_operating_unit
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-24 15:05+0000\n"
+"PO-Revision-Date: 2018-04-24 11:07-0400\n"
+"Language-Team: Rapidsoft\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.4\n"
+"Last-Translator: \n"
+"Language: es\n"
+
+#. module: account_analytic_operating_unit
+#: model:ir.model,name:account_analytic_operating_unit.model_account_analytic_line
+msgid "Analytic Line"
+msgstr "Línea Analítica"
+
+#. module: account_analytic_operating_unit
+#: model:ir.model,name:account_analytic_operating_unit.model_account_invoice
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: account_analytic_operating_unit
+#: model:ir.model,name:account_analytic_operating_unit.model_account_invoice_line
+msgid "Invoice Line"
+msgstr "Línea de Factura"
+
+#. module: account_analytic_operating_unit
+#: model:ir.model,name:account_analytic_operating_unit.model_account_move_line
+msgid "Journal Item"
+msgstr "Ítem de Diario"
+
+#. module: account_analytic_operating_unit
+#: model:ir.model.fields,field_description:account_analytic_operating_unit.field_account_analytic_line_operating_unit
+#: model:ir.model.fields,field_description:account_analytic_operating_unit.field_account_invoice_line_operating_unit
+#: model:ir.model.fields,field_description:account_analytic_operating_unit.field_account_move_line_operating_unit
+#: model:ir.model.fields,field_description:account_analytic_operating_unit.field_purchase_order_line_operating_unit
+#: model:ir.ui.view,arch_db:account_analytic_operating_unit.analytic_account_line_operating_unit_search_inh
+msgid "Operating Unit"
+msgstr "Unidad de Negocio"
+
+#. module: account_analytic_operating_unit
+#: model:ir.model,name:account_analytic_operating_unit.model_purchase_order_line
+msgid "Purchase Order Line"
+msgstr "Línea de Pedido de Compra"

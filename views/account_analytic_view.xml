@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <record id="analytic_account_line_operating_unit_inh" model="ir.ui.view">
+            <field name="name">analytic.account.line.operating.inh</field>
+            <field name="model">account.analytic.line</field>
+            <field name="inherit_id" ref="analytic.view_account_analytic_line_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='name']" position="before">
+                    <field name="operating_unit"/>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="analytic_account_line_operating_unit_search_inh" model="ir.ui.view">
+            <field name="name">analytic.account.line.operating.search.inh</field>
+            <field name="model">account.analytic.line</field>
+            <field name="inherit_id" ref="analytic.view_account_analytic_line_filter"/>
+            <field name="arch" type="xml">
+                 <xpath expr="//field[@name='date']" position="after">
+                        <field name="operating_unit"/>
+                    </xpath>
+                    <xpath expr="//group[@name='groupby']" position="after">
+                        <filter string="Operating Unit" context="{'group_by':'operating_unit'}"/>
+                    </xpath>
+            </field>
+        </record>
+
+
+</odoo>
