@@ -2,10 +2,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 {
-    "author": "Eficent, "
-              "Serpent Consulting Services Pvt. Ltd.,"
-              "Rapidsoft.."
-              "Odoo Community Association (OCA)",
+    "author": "Rapidsoft",
     'name': 'Account Analytic Operating Unit',
     'version': '1.0',
     'category': 'Accounting',
@@ -19,7 +16,7 @@ Allows to add operating units to the following models:
     * Account Invoice Line
     * Account Analytic Line
     * Account Move Line
-----------------------------------------------------------------------
+    
 Create groups and filters on the analytic entries form,tree and pivot for operating units 
 
 Also required the following modules (OCA):
